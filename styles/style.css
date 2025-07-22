@@ -92,7 +92,6 @@
 
 .title_main_text {
   font-family: 'Raleway', sans-serif;
-  letter-spacing: normal;
   letter-spacing: 0.3em;
   line-height: 115%;
   display: block;
@@ -314,9 +313,6 @@
   padding: 0 50px;
 }
 
-.address_footer {
-
-}
 
 .menu_footer {
   padding: 0;
