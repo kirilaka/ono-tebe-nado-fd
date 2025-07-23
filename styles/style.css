@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
-  min-height: 293px;
+  padding: 92px 50px 93px;
   width: 100%;
 }
 
@@ -16,7 +15,7 @@
   font-size: 18px;
   line-height: 100%;
   list-style-type: circle;
-  margin-top: -5px;
+  margin-bottom: 5px;
   }
 
 .menu_text {
@@ -54,7 +53,7 @@
 
 .cover {
   position: relative;
-  margin: 0 0 180px;
+  margin: 0 0 176px;
   min-height: 757px;
   background-image: url("../images/cover.jpg");
   background-position: center;
@@ -160,6 +159,7 @@
   flex-wrap: wrap;
   gap: 25px;
   width: 100%;
+  margin-top: 3px;
 }
 
 .frame {
@@ -176,15 +176,15 @@
   min-height: 596px;
 }
 
-.frame_first {
+.frame_card_movie {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.frame_second {
+.frame_card_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.frame_third {
+.frame_card_painting {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -228,7 +228,6 @@
   display: flex;
   justify-content: space-between;
   align-content: space-between;
-  min-height: 595px;
   margin: 0 24px 180px;
   padding: 35px 0 0 47px;
 }
@@ -254,8 +253,6 @@
   padding-top: 3px;
   margin-top: 100px;
   width: 693px;
-  min-height: 449px;
-
 }
 
 .title_about {
